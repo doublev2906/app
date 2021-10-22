@@ -1,0 +1,51 @@
+.txt {
+    -fx-font-family: "Quicksand";
+    -fx-font-size: 12;
+    -fx-border-color: #257bb9;
+    -fx-border-width: 0.5;
+    -fx-border-radius: 1;
+    -fx-border: gone;
+    -fx-background-color: transparent;
+
+}
+.btn {
+    /*-fx-border-color: #eff4ff;*/
+    /*-fx-background-color: #2b5797;*/
+    /*-fx-text-fill: #eff4ff;*/
+
+    -fx-text-fill: white;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-border-color:null;
+    -fx-background-color:#1F8FE8;
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+
+    /*-fx-text-fill: white;*/
+    /*-fx-font-family: "Arial Narrow";*/
+    /*-fx-font-weight: bold;*/
+    /*-fx-background-color: linear-gradient(#61a2b1, #2A5058);*/
+    /*-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );*/
+
+
+}
+.btn:hover{
+    -fx-background-color: null;
+    -fx-text-fill:#1F8FE8;
+    -fx-font-weight:bold;
+    /*-fx-background-radius: 10%;*/
+    -fx-border-color: #1F8FE8;
+    -fx-background-radius: 5;
+
+    /*-fx-background-color: linear-gradient(#2A5058, #61a2b1);*/
+
+
+}
+
+.tv {
+}
+
+.txt_translate_title {
+    -fx-border-color: #257bb9;
+    -fx-border-radius: 8;
+}
